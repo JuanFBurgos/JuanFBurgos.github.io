@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 /*NAVBAR*/
 
  .navbar-icons{
@@ -57,4 +60,23 @@ section .rounded-img {
 
 .section-presentation p {
     font-family: 'Roboto', sans-serif;
+}
+
+
+/*MEDIA QUERIES PARA MOBILE*/
+
+@media (max-width:844px){
+    section {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+    }
+    section .rounded-img {
+        margin-top: 0.5em ;
+    }
+
+    .section-presentation p {
+        margin: 0.5em 0;
+    }
 }
