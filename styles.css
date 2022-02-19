@@ -60,6 +60,7 @@ section .rounded-img {
 
 .section-presentation p {
     font-family: 'Roboto', sans-serif;
+    font-weight: 900;
 }
 
 
@@ -77,6 +78,7 @@ section .rounded-img {
     }
 
     .section-presentation p {
-        margin: 0.5em 0;
+       /* margin: 0.5em 0;*/
+       display: none;
     }
 }
